@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oi&display=swap');
+
+:root {
+--gradiente: linear-gradient(135deg, #7c3aed )
+}
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body { 
+        font-family: "Time New Roman", Times, serif;
+        color: rgb(154, 5, 184);
+        line-height: 1.6;
+        background-color: rgba(143, 143, 143, 0.37);
+    }
+
+
+
+    .foto-de-perfil {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 12px;
+        border: 30px solid white;
+    }
+
+    header h1 {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+
+    /* MENU DE NAVEGAÇÃO */
+
+    nav ul {
+        list-style: none;
+        display:flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    nav a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+        padding-bottom: 4px;
+        border-bottom: 2px solid transparent;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* Destaca no menu a pagina em que o usuario esta */
+
+    nav a.ativo {
+        border-bottom: 2px solid;
+    }
+
+    /* conteudo principal */ 
+
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    section {
+        background-color: rgb(185, 185, 185);
+        border-radius: 10px;
+        padding: 24px;
+        box-shadow: 8px;
+    }
+
+    section h2 {
+        color: rgb(0, 0, 0);
+        margin-bottom: 12px;
+        border-bottom: 2px solid;
+        padding-bottom: 8px;
+    }
+
+    section ul {
+        padding-left: 20px;
+    }
+
+
+    .grade-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .cartao-link {
+        flex: 1 1 calc(50% - 16px);
+        background-color: rgb(0, 0, 0);
+        padding: 16px;
+        text-decoration: none;
+        color: rgb(0, 255, 106);
+    }
+
+    .cartao-link h3 {
+        color: darkgoldenrod;
+        margin-bottom: 6px;
+    }
+
+    .cartao-link:hover {
+        background-color: rgb(255, 0, 0);
+
+    }
+
+    /* cards */
+
+    .card {
+        background-color: rgb(185, 185, 185);
+        border-radius: 80px;
+        padding: 16px;
+        margin-bottom: 16px;
+
+    }
+
+    .card h3 {
+        color: rgb(0, 0, 0);
+        margin-bottom: 8px;
+
+    }
+
+    .card a {
+        display: inline-block;
+        margin-top: 8px;
+        color: rgb(0, 0, 0);
+        font-weight: 14px;
+
+    }
+
+    footer {
+        color: black;
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+        
+
+    }
+
+    
